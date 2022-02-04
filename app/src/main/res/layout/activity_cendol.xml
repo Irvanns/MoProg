@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:src="@drawable/cendol"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:text="Es Cendol"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Daerah Asal:Jawa Barat dan Jawa Tengah"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Es cendol adalah penganan yang dibuat dari tepung beras dan sebagainya yang dibentuk dengan penyaring, kemudian dicampur dengan air gula dan santan. Cendol merupakan minuman penutup es manis yang mengandung tetesan tepung beras hijau, santan, dan sirup gula aren. Cendol populer di Indonesia dan Asia Tenggara lainnya seperti Brunei, Cambodia, Malaysia, Singapura, Thailand, Vietnam, dan Myanmar.
+            Cendol sebagai minuman tradisional khas Indonesia ini dulunya terbuat dari tepung hunkwe, tetapi kini cendol terbuat dari tepung beras, disajikan dengan es parut serta gula merah cair dan santan. Minuman ini memiliki rasa yang manis dan gurih. Di daerah Sunda Jawa Barat, minuman ini dikenal dengan nama cendol, sedangkan di Jawa Tengah dikenal dengan nama es dawet, khususnya Kabupaten Banjarnegara dengan minuman khasnya es dawet ayu. Berkembang kepercayaan populer dalam masyarakat Indonesia bahwa istilah cendol mungkin sekali berasal dari kata jendol, yang ditemukan dalam bahasa Sunda dan Jawa hal ini merujuk pada sensasi jendolan yang dirasakan ketika butiran cendol melalui mulut kala meminum es cendol.
+            Pada saat membuat cendol, tepung beras diolah dengan diberi pewarna hijau dan dicetak melalui alat khusus, sehingga berbentuk buliran. Pewarna yang digunakan awalnya adalah pewarna alami dari daun pandan, tetapi saat ini telah digunakan pewarna makanan buatan. Es cendol merambah hingga ke penang Malaysia, cendol dibuat dengan cara mengayak kukusan tepung beras yang diwarnai dengan daun suji sehingga diperoleh bentuk bulat lonjong yang lancip di ujungnya. Di penang, minum cendol disebut 'nyendol'.
+            Minuman ini biasanya disajikan sebagai pencuci mulut atau sebagai makanan selingan. Minuman ini sesuai disajikan disiang hari pada saat hari panas."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp"
+            />
+
+    </ScrollView>
+
+</LinearLayout>
